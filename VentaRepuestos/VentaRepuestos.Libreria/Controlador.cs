@@ -11,7 +11,7 @@ namespace VentaRepuestos.Libreria
 {
     public class Controlador
     {
-        public List<Repuesto> _listaProductos = new List<Repuesto>();
+        public List<Repuesto> _listaProductos/* = new List<Repuesto>()*/;
         private string nombreComercio;
         private string direccion;
 
@@ -20,13 +20,23 @@ namespace VentaRepuestos.Libreria
         public string NombreComercio { get => nombreComercio; set => nombreComercio = value; }
         public string Direccion { get => direccion; set => direccion = value; }
 
+        public Controlador()
+        {
+            if (_listaProductos is null)
+            {
+                _listaProductos = new List<Repuesto>();
+            }
+            Flag = true;
+        }
         public string AgregarObj(Repuesto R)
         {
 
             try
             {
-            Repuesto R_aux = _listaProductos.FirstOrDefault(o => o.Codigo == R.Codigo);
-            if (R_aux.Codigo == null)
+            Repuesto R_aux = new Repuesto();
+            R_aux = _listaProductos.SingleOrDefault(o => o.Codigo == R.Codigo);
+            
+            if (R_aux is null)
             {
                 _listaProductos.Add(R);
                  return $"Código {R.Codigo} agregado correctamente.";
@@ -36,32 +46,43 @@ namespace VentaRepuestos.Libreria
                  throw new InvalidOperationException();
             }
             }
-            catch (NullReferenceException)
+            catch /*(NullReferenceException)*/
             {
 
             }
             return "";
         }
-        //public string EliminarObj(Object obj)
-        //{
-        //    if (obj != null)
-        //        _list.Remove(obj);
-        //        return $"Registro {1} eliminado correctamente.";
-        //    else
-        //        throw new InvalidOperationException();
-        //}
-        //public int ValidaNumerico(string s)
-        //{
-        //    int i;
-        //    if (int.TryParse(s, out i))
-        //    {
-        //        return i;
-        //    }
-        //    else
-        //    {
-        //        throw new ValorNoNumerico();
-        //    }
-        //}
+        public string EliminarObj(int i)
+        {
+            if (i > 0)
+            {
+                Repuesto R_aux = new Repuesto();
+                R_aux = _listaProductos.SingleOrDefault(o => o.Codigo == i);
+                if (R_aux != null)
+                {
+                _listaProductos.Remove(R_aux);
+                return $"Registro {R_aux.Codigo} eliminado correctamente.";
+
+                }
+            }
+            else
+            {
+                throw new InvalidOperationException();
+            }
+            return "";
+        }
+        public int ValidaNumerico(string s)
+        {
+            int i;
+            if (int.TryParse(s, out i))
+            {
+                return i;
+            }
+            else
+            {
+                throw new ValorNoNumerico();
+            }
+        }
 
         //public void ValidaExistencia(int i)
         //{
