@@ -83,28 +83,40 @@ namespace VentaRepuestos.Libreria
                 throw new ValorNoNumerico();
             }
         }
+        public double ValidaDouble(string s)
+        {
+            double d;
+            if (double.TryParse(s, out d))
+            {
+                return d;
+            }
+            else
+            {
+                throw new Exception();
+            }
+        }
 
-        //public void ValidaExistencia(int i)
-        //{
-        //    object obj;
-        //    if (_list != null)
-        //    {
+        public void ValidaExistencia(int i)
+        {
+            Repuesto R;
+            if (_listaProductos != null)
+            {
 
-        //    try
-        //    {
-        //        obj = _list.FirstOrDefault(o => o.dato == i);
-        //        if (aux.Codigo != null)
-        //        {
-        //            throw new Exception();
+                try
+                {
+                    R = _listaProductos.FirstOrDefault(o => o.Codigo1 == i);
+                    if (R.Codigo != null)
+                    {
+                        throw new Exception();
 
-        //        }
-        //    }
-        //    catch (NullReferenceException)
-        //    {
+                    }
+                }
+                catch (NullReferenceException)
+                {
 
-        //    }
-        //    }
-        //}
+                }
+            }
+        }
         //public string Listar()
         //{
         //    string msg = "";

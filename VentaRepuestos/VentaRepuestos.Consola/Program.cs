@@ -37,22 +37,39 @@ namespace VentaRepuestos.Consola
         //AgregarRepuesto(Repuesto):void
         static void EjecutarMenu(Controlador C, int i)
         {
-            Repuesto R = new Repuesto(1, "martillo", 100, 10);
+            //Repuesto R = new Repuesto(1, "martillo", 100, 10);
             switch (i)
             {
                 case 1: 
-                    AgregarRepuesto(C, R);
+                    AgregarRepuesto(C, DatosRepuesto());
                     break;
                 case 2:
                     Console.Write("Ingrese el código a eliminar: ");
                     QuitarRepuesto(C, C.ValidaNumerico(Console.ReadLine()));
                     break;
+                case 3:
+
                 default: break;
             }
         }
         static void AgregarRepuesto(Controlador C, Repuesto R)
         {
             Console.WriteLine(C.AgregarObj(R) + Environment.NewLine);
+
+        }
+        static Repuesto DatosRepuesto()
+        {
+            Repuesto R = new Repuesto();
+            Controlador C_aux = new Controlador();
+            Console.Write("Ingrese código de repuesto: ");
+            R.Codigo = C_aux.ValidaNumerico(Console.ReadLine());
+            Console.Write("Ingrese nombre de repuesto: ");
+            R.Nombre = Console.ReadLine();
+            Console.Write("Ingrese el valor: ");
+            R.Precio = C_aux.ValidaDouble(Console.ReadLine());
+            Console.Write("Ingrese el stock: ");
+            R.Stock = C_aux.ValidaNumerico(Console.ReadLine());
+            return R;
 
         }
 
@@ -63,6 +80,15 @@ namespace VentaRepuestos.Consola
 
         }
         //ModificarPrecio(int,double):void
+        static void ModificarPrecio(int i, double d)
+        {
+            //Repuesto R = ;
+            Controlador C_aux = new Controlador();
+            Console.Write("Ingrese código de repuesto a modificar el precio: ");
+            R.Codigo = C_aux.ValidaNumerico(Console.ReadLine());
+            Console.Write("El precio actual es $" + R.Precio + ". Indique el nuevo precio: ");
+
+        }
         //AgregarStock(int,int):void
         //QuitarStock(int,int):void
         //TraerPorCategoria(int):List<Repuesto>
