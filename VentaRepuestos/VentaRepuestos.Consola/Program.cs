@@ -14,6 +14,7 @@ namespace VentaRepuestos.Consola
         public static void Main(string[] args)
         {
             
+            
             Controlador C1 = new Controlador();
             Console.WriteLine("Bienvenido a VentaRepuestos");
             while (C1.Flag)
@@ -48,6 +49,15 @@ namespace VentaRepuestos.Consola
                     QuitarRepuesto(C, C.ValidaNumerico(Console.ReadLine()));
                     break;
                 case 3:
+                    Repuesto R = new Repuesto();
+                    Repuesto R_aux = new Repuesto();
+                    Console.Write("Ingrese código de repuesto a modificar el precio: ");
+                    R_aux.Codigo = C.ValidaNumerico(Console.ReadLine());
+                    R = C.BuscaProducto(R_aux.Codigo);
+                    Console.Write("El precio actual es $" + R.Precio + ". Indique el nuevo precio: ");
+                    ModificarPrecio(C, R.Codigo, C.ValidaDouble(Console.ReadLine()));                    
+
+                    break;
 
                 default: break;
             }
@@ -80,13 +90,22 @@ namespace VentaRepuestos.Consola
 
         }
         //ModificarPrecio(int,double):void
-        static void ModificarPrecio(int i, double d)
+        static void ModificarPrecio(Controlador C, int i, double d)
         {
-            //Repuesto R = ;
-            Controlador C_aux = new Controlador();
-            Console.Write("Ingrese código de repuesto a modificar el precio: ");
-            R.Codigo = C_aux.ValidaNumerico(Console.ReadLine());
-            Console.Write("El precio actual es $" + R.Precio + ". Indique el nuevo precio: ");
+            Repuesto R = new Repuesto();
+            Repuesto R_aux = new Repuesto();
+            R = C.BuscaProducto(R_aux.Codigo);
+            double.TryParse(Console.ReadLine(), out d);
+            if (d != null)
+            {
+                C.ActualizaPrecio(R.Codigo, d);
+                Console.WriteLine("Precio modificado");
+            }
+            else
+            {
+                Console.WriteLine("No fue posible modificar el precio");
+            }
+
 
         }
         //AgregarStock(int,int):void

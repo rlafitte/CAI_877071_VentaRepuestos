@@ -104,7 +104,7 @@ namespace VentaRepuestos.Libreria
 
                 try
                 {
-                    R = _listaProductos.FirstOrDefault(o => o.Codigo1 == i);
+                    R = _listaProductos.FirstOrDefault(o => o.Codigo == i);
                     if (R.Codigo != null)
                     {
                         throw new Exception();
@@ -115,6 +115,41 @@ namespace VentaRepuestos.Libreria
                 {
 
                 }
+            }
+        }
+        public Repuesto BuscaProducto(int i)
+        {
+            Repuesto R = new Repuesto();
+            try
+            {
+                R = _listaProductos.FirstOrDefault(o => o.Codigo == i);
+                return R;
+            }
+            catch
+            {
+                throw new Exception();
+            }
+        }
+        public void ActualizaPrecio(int i, double d)
+        {
+            Repuesto R = new Repuesto();
+            try
+            {
+                R = _listaProductos.FirstOrDefault(o => o.Codigo == i);
+                if (R!= null)
+                {
+                    foreach (Repuesto r in _listaProductos)
+                    {
+                        if (R.Codigo == r.Codigo)
+                        {
+                            r.Precio = d;
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                throw new Exception();
             }
         }
         //public string Listar()
