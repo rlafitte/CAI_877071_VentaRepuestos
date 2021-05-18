@@ -38,6 +38,7 @@ namespace RepuestosGUI
             this.tbPrecio = new System.Windows.Forms.TextBox();
             this.tbStock = new System.Windows.Forms.TextBox();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.btnAgregarRep = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbCodigo
@@ -114,11 +115,22 @@ namespace RepuestosGUI
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // btnAgregarRep
+            // 
+            this.btnAgregarRep.Location = new System.Drawing.Point(232, 192);
+            this.btnAgregarRep.Name = "btnAgregarRep";
+            this.btnAgregarRep.Size = new System.Drawing.Size(99, 36);
+            this.btnAgregarRep.TabIndex = 9;
+            this.btnAgregarRep.Text = "Agregar";
+            this.btnAgregarRep.UseVisualStyleBackColor = true;
+            this.btnAgregarRep.Click += new System.EventHandler(this.btnAgregarRep_Click);
+            // 
             // FrmRepuesto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 274);
+            this.Controls.Add(this.btnAgregarRep);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.tbStock);
             this.Controls.Add(this.tbPrecio);
@@ -147,5 +159,6 @@ namespace RepuestosGUI
         private System.Windows.Forms.TextBox tbPrecio;
         private System.Windows.Forms.TextBox tbStock;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnAgregarRep;
     }
 }
