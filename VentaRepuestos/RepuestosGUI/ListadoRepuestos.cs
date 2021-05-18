@@ -15,7 +15,11 @@ namespace RepuestosGUI
         public ListadoRepuestos(List<VentaRepuestos.Libreria.Entidades.Repuesto> listaRepuestos)
         {
             InitializeComponent();
-            lstRepuestos
+            foreach (VentaRepuestos.Libreria.Entidades.Repuesto r in listaRepuestos)
+            {
+                lstRepuestos.Items.Add(r.ToString());
+
+            }
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

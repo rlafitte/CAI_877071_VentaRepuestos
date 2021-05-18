@@ -55,6 +55,7 @@ namespace RepuestosGUI
             //    //this.Categoria = cat;
             //}
             _lista.Add(r);
+            
         }
     }
 }
