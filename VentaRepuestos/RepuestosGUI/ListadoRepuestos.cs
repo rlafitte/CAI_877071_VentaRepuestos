@@ -27,5 +27,11 @@ namespace RepuestosGUI
             this.Owner.Show();
             this.Close();
         }
+
+        private void lstRepuestos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string str = lstRepuestos.SelectedItem.ToString();
+            tbCodigoLista.Text = str;
+        }
     }
 }
