@@ -15,3 +15,4 @@ C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\Venta
 C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.Form1.resources
 C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.FrmRepuesto.resources
 C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.csproj.CopyComplete
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.ListadoRepuestos.resources

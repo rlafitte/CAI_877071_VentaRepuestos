@@ -33,5 +33,13 @@ namespace RepuestosGUI
             frm.Show();
             this.Hide();
         }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            ListadoRepuestos frm = new ListadoRepuestos(ListaRepuestos);
+            frm.Owner = this;
+            frm.Show();
+            this.Hide();
+        }
     }
 }

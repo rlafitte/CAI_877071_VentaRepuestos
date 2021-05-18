@@ -58,6 +58,12 @@
     <Compile Include="FrmRepuesto.Designer.cs">
       <DependentUpon>FrmRepuesto.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListadoRepuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoRepuestos.Designer.cs">
+      <DependentUpon>ListadoRepuestos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRepuesto.resx">
       <DependentUpon>FrmRepuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoRepuestos.resx">
+      <DependentUpon>ListadoRepuestos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

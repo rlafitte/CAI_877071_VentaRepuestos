@@ -12,9 +12,16 @@ namespace RepuestosGUI
 {
     public partial class ListadoRepuestos : Form
     {
-        public ListadoRepuestos()
+        public ListadoRepuestos(List<VentaRepuestos.Libreria.Entidades.Repuesto> listaRepuestos)
         {
             InitializeComponent();
+            lstRepuestos
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Owner.Show();
+            this.Close();
         }
     }
 }

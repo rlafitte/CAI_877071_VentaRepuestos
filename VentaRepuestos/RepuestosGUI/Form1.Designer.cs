@@ -32,6 +32,7 @@ namespace RepuestosGUI
             this.txtAgregarRep = new System.Windows.Forms.Button();
             this.txtQuitarRep = new System.Windows.Forms.Button();
             this.txtModifRep = new System.Windows.Forms.Button();
+            this.btnListar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtAgregarRep
@@ -62,11 +63,22 @@ namespace RepuestosGUI
             this.txtModifRep.Text = "Modificar repuesto";
             this.txtModifRep.UseVisualStyleBackColor = true;
             // 
+            // btnListar
+            // 
+            this.btnListar.Location = new System.Drawing.Point(357, 73);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(126, 60);
+            this.btnListar.TabIndex = 3;
+            this.btnListar.Text = "Listar repuestos";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnListar);
             this.Controls.Add(this.txtModifRep);
             this.Controls.Add(this.txtQuitarRep);
             this.Controls.Add(this.txtAgregarRep);
@@ -81,6 +93,7 @@ namespace RepuestosGUI
         private System.Windows.Forms.Button txtAgregarRep;
         private System.Windows.Forms.Button txtQuitarRep;
         private System.Windows.Forms.Button txtModifRep;
+        private System.Windows.Forms.Button btnListar;
     }
 }
 
