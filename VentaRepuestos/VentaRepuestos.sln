@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentaRepuestos.Consola", "V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentaRepuestos.Libreria", "VentaRepuestos.Libreria\VentaRepuestos.Libreria.csproj", "{CF32127C-5A7F-4069-A318-0FE86FE62EFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepuestosGUI", "RepuestosGUI\RepuestosGUI.csproj", "{F955120D-1091-4028-874F-AF796EDB164C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF32127C-5A7F-4069-A318-0FE86FE62EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF32127C-5A7F-4069-A318-0FE86FE62EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF32127C-5A7F-4069-A318-0FE86FE62EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F955120D-1091-4028-874F-AF796EDB164C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F955120D-1091-4028-874F-AF796EDB164C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F955120D-1091-4028-874F-AF796EDB164C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F955120D-1091-4028-874F-AF796EDB164C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

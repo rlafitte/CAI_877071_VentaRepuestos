@@ -1,0 +1,17 @@
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\RepuestosGUI.exe.config
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\RepuestosGUI.exe
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\RepuestosGUI.pdb
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.Properties.Resources.resources
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.csproj.GenerateResource.cache
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.exe
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.pdb
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\VentaRepuestos.Consola.exe
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\VentaRepuestos.Libreria.dll
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\VentaRepuestos.Consola.pdb
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\VentaRepuestos.Consola.exe.config
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\bin\Debug\VentaRepuestos.Libreria.pdb
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.Form1.resources
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.FrmRepuesto.resources
+C:\Users\renar\Desktop\CAI\ventarepuestos-1873bedb0f9a4972bafcc6f55f21a81a\VentaRepuestos\CAI_877071_VentaRepuestos\VentaRepuestos\RepuestosGUI\obj\Debug\RepuestosGUI.csproj.CopyComplete

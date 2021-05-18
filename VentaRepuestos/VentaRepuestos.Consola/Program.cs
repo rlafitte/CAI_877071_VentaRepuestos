@@ -13,7 +13,7 @@ namespace VentaRepuestos.Consola
 
         public static void Main(string[] args)
         {
-            
+
             
             Controlador C1 = new Controlador();
             Console.WriteLine("Bienvenido a VentaRepuestos");
